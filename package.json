@@ -1,0 +1,16 @@
+{
+  "name": "ki1r0y-reporting",
+  "version": "0.0.1",
+  "description": "Level & category logging and reporting API",
+  "main": "index.js",
+  "files": ["index.js", "spec/spec.js"],
+  "devDependencies": {
+      "ki1r0y-test": "^0.0.01"
+  },
+  "scripts": {
+      "build": "browserify index.js > browser.js",
+      "test": "ktest"
+  },
+  "author": "ki1r0y",
+  "license": "MIT"
+}
